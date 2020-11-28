@@ -11,13 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c864fcef-8e3b-47f8-aa30-0fc68370748c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.openapi-generator/FILES" beforeDir="false" afterPath="$PROJECT_DIR$/.openapi-generator/FILES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CollectionsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CollectionsApi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/PointsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PointsApi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_openapi_client/model_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_openapi_client/model_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.openapi-generator-ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.openapi-generator-ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python tests.Unittests for test_indexes.TestIndexes.testIndexes">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -175,9 +172,13 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1899" height="415" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606594275285" />
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1606593116272">
+    <state x="464" y="96" width="992" height="804" key="SettingsEditor" timestamp="1606596264109">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606593116272" />
+    <state x="464" y="96" width="992" height="804" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1606596264109" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1606594943336">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606594943336" />
   </component>
 </project>

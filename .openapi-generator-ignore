@@ -32,3 +32,5 @@ test/test_indexes.py
 test/test_payload_interface.py
 test/test_payload_type.py
 test/test_storage_type.py
+
+README.md
