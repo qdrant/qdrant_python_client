@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.scored_point import ScoredPoint
+import qdrant_openapi_client
+from qdrant_openapi_client.model.scored_point import ScoredPoint
 globals()['ScoredPoint'] = ScoredPoint
-from openapi_client.model.inline_response2006 import InlineResponse2006
+from qdrant_openapi_client.model.inline_response2006 import InlineResponse2006
 
 
 class TestInlineResponse2006(unittest.TestCase):

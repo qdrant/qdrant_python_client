@@ -14,20 +14,20 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.payload_ops_any_of import PayloadOpsAnyOf
-from openapi_client.model.payload_ops_any_of1 import PayloadOpsAnyOf1
-from openapi_client.model.payload_ops_any_of1_delete_payload import PayloadOpsAnyOf1DeletePayload
-from openapi_client.model.payload_ops_any_of2 import PayloadOpsAnyOf2
-from openapi_client.model.payload_ops_any_of2_clear_payload import PayloadOpsAnyOf2ClearPayload
-from openapi_client.model.payload_ops_any_of_set_payload import PayloadOpsAnyOfSetPayload
+import qdrant_openapi_client
+from qdrant_openapi_client.model.payload_ops_any_of import PayloadOpsAnyOf
+from qdrant_openapi_client.model.payload_ops_any_of1 import PayloadOpsAnyOf1
+from qdrant_openapi_client.model.payload_ops_any_of1_delete_payload import PayloadOpsAnyOf1DeletePayload
+from qdrant_openapi_client.model.payload_ops_any_of2 import PayloadOpsAnyOf2
+from qdrant_openapi_client.model.payload_ops_any_of2_clear_payload import PayloadOpsAnyOf2ClearPayload
+from qdrant_openapi_client.model.payload_ops_any_of_set_payload import PayloadOpsAnyOfSetPayload
 globals()['PayloadOpsAnyOf'] = PayloadOpsAnyOf
 globals()['PayloadOpsAnyOf1'] = PayloadOpsAnyOf1
 globals()['PayloadOpsAnyOf1DeletePayload'] = PayloadOpsAnyOf1DeletePayload
 globals()['PayloadOpsAnyOf2'] = PayloadOpsAnyOf2
 globals()['PayloadOpsAnyOf2ClearPayload'] = PayloadOpsAnyOf2ClearPayload
 globals()['PayloadOpsAnyOfSetPayload'] = PayloadOpsAnyOfSetPayload
-from openapi_client.model.payload_ops import PayloadOps
+from qdrant_openapi_client.model.payload_ops import PayloadOps
 
 
 class TestPayloadOps(unittest.TestCase):

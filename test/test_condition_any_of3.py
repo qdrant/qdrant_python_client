@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.geo_bounding_box import GeoBoundingBox
+import qdrant_openapi_client
+from qdrant_openapi_client.model.geo_bounding_box import GeoBoundingBox
 globals()['GeoBoundingBox'] = GeoBoundingBox
-from openapi_client.model.condition_any_of3 import ConditionAnyOf3
+from qdrant_openapi_client.model.condition_any_of3 import ConditionAnyOf3
 
 
 class TestConditionAnyOf3(unittest.TestCase):

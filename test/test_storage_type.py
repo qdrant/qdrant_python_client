@@ -14,12 +14,12 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.storage_type_any_of import StorageTypeAnyOf
-from openapi_client.model.storage_type_any_of1 import StorageTypeAnyOf1
+import qdrant_openapi_client
+from qdrant_openapi_client.model.storage_type_any_of import StorageTypeAnyOf
+from qdrant_openapi_client.model.storage_type_any_of1 import StorageTypeAnyOf1
 globals()['StorageTypeAnyOf'] = StorageTypeAnyOf
 globals()['StorageTypeAnyOf1'] = StorageTypeAnyOf1
-from openapi_client.model.storage_type import StorageType
+from qdrant_openapi_client.model.storage_type import StorageType
 
 
 class TestStorageType(unittest.TestCase):

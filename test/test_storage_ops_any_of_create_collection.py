@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.distance import Distance
+import qdrant_openapi_client
+from qdrant_openapi_client.model.distance import Distance
 globals()['Distance'] = Distance
-from openapi_client.model.storage_ops_any_of_create_collection import StorageOpsAnyOfCreateCollection
+from qdrant_openapi_client.model.storage_ops_any_of_create_collection import StorageOpsAnyOfCreateCollection
 
 
 class TestStorageOpsAnyOfCreateCollection(unittest.TestCase):

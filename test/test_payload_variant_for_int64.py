@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.payload_variant_for_int64 import PayloadVariantForInt64
+import qdrant_openapi_client
+from qdrant_openapi_client.model.payload_variant_for_int64 import PayloadVariantForInt64
 
 
 class TestPayloadVariantForInt64(unittest.TestCase):

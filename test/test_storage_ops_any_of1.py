@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.storage_ops_any_of1 import StorageOpsAnyOf1
+import qdrant_openapi_client
+from qdrant_openapi_client.model.storage_ops_any_of1 import StorageOpsAnyOf1
 
 
 class TestStorageOpsAnyOf1(unittest.TestCase):

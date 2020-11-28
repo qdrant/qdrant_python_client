@@ -14,14 +14,14 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.indexes_any_of import IndexesAnyOf
-from openapi_client.model.indexes_any_of1 import IndexesAnyOf1
-from openapi_client.model.indexes_any_of1_options import IndexesAnyOf1Options
+import qdrant_openapi_client
+from qdrant_openapi_client.model.indexes_any_of import IndexesAnyOf
+from qdrant_openapi_client.model.indexes_any_of1 import IndexesAnyOf1
+from qdrant_openapi_client.model.indexes_any_of1_options import IndexesAnyOf1Options
 globals()['IndexesAnyOf'] = IndexesAnyOf
 globals()['IndexesAnyOf1'] = IndexesAnyOf1
 globals()['IndexesAnyOf1Options'] = IndexesAnyOf1Options
-from openapi_client.model.indexes import Indexes
+from qdrant_openapi_client.model.indexes import Indexes
 
 
 class TestIndexes(unittest.TestCase):

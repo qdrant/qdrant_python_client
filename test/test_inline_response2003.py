@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.update_result import UpdateResult
+import qdrant_openapi_client
+from qdrant_openapi_client.model.update_result import UpdateResult
 globals()['UpdateResult'] = UpdateResult
-from openapi_client.model.inline_response2003 import InlineResponse2003
+from qdrant_openapi_client.model.inline_response2003 import InlineResponse2003
 
 
 class TestInlineResponse2003(unittest.TestCase):

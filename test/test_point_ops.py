@@ -14,16 +14,16 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.point_insert_ops import PointInsertOps
-from openapi_client.model.point_ops_any_of import PointOpsAnyOf
-from openapi_client.model.point_ops_any_of1 import PointOpsAnyOf1
-from openapi_client.model.point_ops_any_of1_delete_points import PointOpsAnyOf1DeletePoints
+import qdrant_openapi_client
+from qdrant_openapi_client.model.point_insert_ops import PointInsertOps
+from qdrant_openapi_client.model.point_ops_any_of import PointOpsAnyOf
+from qdrant_openapi_client.model.point_ops_any_of1 import PointOpsAnyOf1
+from qdrant_openapi_client.model.point_ops_any_of1_delete_points import PointOpsAnyOf1DeletePoints
 globals()['PointInsertOps'] = PointInsertOps
 globals()['PointOpsAnyOf'] = PointOpsAnyOf
 globals()['PointOpsAnyOf1'] = PointOpsAnyOf1
 globals()['PointOpsAnyOf1DeletePoints'] = PointOpsAnyOf1DeletePoints
-from openapi_client.model.point_ops import PointOps
+from qdrant_openapi_client.model.point_ops import PointOps
 
 
 class TestPointOps(unittest.TestCase):

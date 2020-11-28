@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.point_struct import PointStruct
+import qdrant_openapi_client
+from qdrant_openapi_client.model.point_struct import PointStruct
 globals()['PointStruct'] = PointStruct
-from openapi_client.model.point_insert_ops_any_of1 import PointInsertOpsAnyOf1
+from qdrant_openapi_client.model.point_insert_ops_any_of1 import PointInsertOpsAnyOf1
 
 
 class TestPointInsertOpsAnyOf1(unittest.TestCase):

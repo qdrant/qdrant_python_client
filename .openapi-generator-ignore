@@ -23,10 +23,10 @@
 #!docs/README.md
 .dockerignore
 
-openapi_client/model/payload_interface.py
-openapi_client/model/storage_type.py
-openapi_client/model/payload_type.py
-openapi_client/model/indexes.py
+qdrant_openapi_client/model/payload_interface.py
+qdrant_openapi_client/model/storage_type.py
+qdrant_openapi_client/model/payload_type.py
+qdrant_openapi_client/model/indexes.py
 
 test/test_indexes.py
 test/test_payload_interface.py

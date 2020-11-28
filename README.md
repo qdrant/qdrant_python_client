@@ -17,13 +17,13 @@ Python >= 3.5
 If the python package is hosted on a repository, you can install directly using:
 
 ```sh
-pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
+pip install git+https://github.com/qdrant/qdrant_python_client.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/qdrant/qdrant_python_client.git`)
 
 Then import the package:
 ```python
-import openapi_client
+import qdrant_openapi_client
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import openapi_client
+import qdrant_openapi_client
 ```
 
 ## Getting Started
@@ -47,24 +47,24 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 
 import time
-import openapi_client
+import qdrant_openapi_client
 from pprint import pprint
-from openapi_client.api import collections_api
-from openapi_client.model.error_response import ErrorResponse
-from openapi_client.model.inline_response200 import InlineResponse200
-from openapi_client.model.inline_response2001 import InlineResponse2001
-from openapi_client.model.inline_response2002 import InlineResponse2002
-from openapi_client.model.storage_ops import StorageOps
+from qdrant_openapi_client.api import collections_api
+from qdrant_openapi_client.model.error_response import ErrorResponse
+from qdrant_openapi_client.model.inline_response200 import InlineResponse200
+from qdrant_openapi_client.model.inline_response2001 import InlineResponse2001
+from qdrant_openapi_client.model.inline_response2002 import InlineResponse2002
+from qdrant_openapi_client.model.storage_ops import StorageOps
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = qdrant_openapi_client.Configuration(
     host = "http://localhost:6333"
 )
 
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with qdrant_openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = collections_api.CollectionsApi(api_client)
     name = "name_example" # str | Name of the collection to retrieve
@@ -73,7 +73,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         # Get information about existing collection
         api_response = api_instance.get_collection(name)
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except qdrant_openapi_client.ApiException as e:
         print("Exception when calling CollectionsApi->get_collection: %s\n" % e)
 ```
 

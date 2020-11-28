@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.payload_variant_for_geo_point import PayloadVariantForGeoPoint
+import qdrant_openapi_client
+from qdrant_openapi_client.model.payload_variant_for_geo_point import PayloadVariantForGeoPoint
 globals()['PayloadVariantForGeoPoint'] = PayloadVariantForGeoPoint
-from openapi_client.model.payload_interface_any_of3 import PayloadInterfaceAnyOf3
+from qdrant_openapi_client.model.payload_interface_any_of3 import PayloadInterfaceAnyOf3
 
 
 class TestPayloadInterfaceAnyOf3(unittest.TestCase):

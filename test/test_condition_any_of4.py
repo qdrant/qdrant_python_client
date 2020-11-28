@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.condition_any_of4 import ConditionAnyOf4
+import qdrant_openapi_client
+from qdrant_openapi_client.model.condition_any_of4 import ConditionAnyOf4
 
 
 class TestConditionAnyOf4(unittest.TestCase):

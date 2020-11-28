@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.storage_ops_any_of_create_collection import StorageOpsAnyOfCreateCollection
+import qdrant_openapi_client
+from qdrant_openapi_client.model.storage_ops_any_of_create_collection import StorageOpsAnyOfCreateCollection
 globals()['StorageOpsAnyOfCreateCollection'] = StorageOpsAnyOfCreateCollection
-from openapi_client.model.storage_ops_any_of import StorageOpsAnyOf
+from qdrant_openapi_client.model.storage_ops_any_of import StorageOpsAnyOf
 
 
 class TestStorageOpsAnyOf(unittest.TestCase):

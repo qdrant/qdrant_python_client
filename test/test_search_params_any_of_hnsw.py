@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.search_params_any_of_hnsw import SearchParamsAnyOfHnsw
+import qdrant_openapi_client
+from qdrant_openapi_client.model.search_params_any_of_hnsw import SearchParamsAnyOfHnsw
 
 
 class TestSearchParamsAnyOfHnsw(unittest.TestCase):

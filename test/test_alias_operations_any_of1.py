@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.alias_operations_any_of1_delete_alias import AliasOperationsAnyOf1DeleteAlias
+import qdrant_openapi_client
+from qdrant_openapi_client.model.alias_operations_any_of1_delete_alias import AliasOperationsAnyOf1DeleteAlias
 globals()['AliasOperationsAnyOf1DeleteAlias'] = AliasOperationsAnyOf1DeleteAlias
-from openapi_client.model.alias_operations_any_of1 import AliasOperationsAnyOf1
+from qdrant_openapi_client.model.alias_operations_any_of1 import AliasOperationsAnyOf1
 
 
 class TestAliasOperationsAnyOf1(unittest.TestCase):

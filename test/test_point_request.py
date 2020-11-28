@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.point_request import PointRequest
+import qdrant_openapi_client
+from qdrant_openapi_client.model.point_request import PointRequest
 
 
 class TestPointRequest(unittest.TestCase):

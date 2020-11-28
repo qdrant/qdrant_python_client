@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.inline_response2001 import InlineResponse2001
+import qdrant_openapi_client
+from qdrant_openapi_client.model.inline_response2001 import InlineResponse2001
 
 
 class TestInlineResponse2001(unittest.TestCase):

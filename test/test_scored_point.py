@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.scored_point import ScoredPoint
+import qdrant_openapi_client
+from qdrant_openapi_client.model.scored_point import ScoredPoint
 
 
 class TestScoredPoint(unittest.TestCase):

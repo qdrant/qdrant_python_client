@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.payload_variant_for_string import PayloadVariantForString
+import qdrant_openapi_client
+from qdrant_openapi_client.model.payload_variant_for_string import PayloadVariantForString
 globals()['PayloadVariantForString'] = PayloadVariantForString
-from openapi_client.model.payload_interface_any_of import PayloadInterfaceAnyOf
+from qdrant_openapi_client.model.payload_interface_any_of import PayloadInterfaceAnyOf
 
 
 class TestPayloadInterfaceAnyOf(unittest.TestCase):

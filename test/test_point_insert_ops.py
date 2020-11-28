@@ -14,16 +14,16 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.point_insert_ops_any_of import PointInsertOpsAnyOf
-from openapi_client.model.point_insert_ops_any_of1 import PointInsertOpsAnyOf1
-from openapi_client.model.point_insert_ops_any_of_batch import PointInsertOpsAnyOfBatch
-from openapi_client.model.point_struct import PointStruct
+import qdrant_openapi_client
+from qdrant_openapi_client.model.point_insert_ops_any_of import PointInsertOpsAnyOf
+from qdrant_openapi_client.model.point_insert_ops_any_of1 import PointInsertOpsAnyOf1
+from qdrant_openapi_client.model.point_insert_ops_any_of_batch import PointInsertOpsAnyOfBatch
+from qdrant_openapi_client.model.point_struct import PointStruct
 globals()['PointInsertOpsAnyOf'] = PointInsertOpsAnyOf
 globals()['PointInsertOpsAnyOf1'] = PointInsertOpsAnyOf1
 globals()['PointInsertOpsAnyOfBatch'] = PointInsertOpsAnyOfBatch
 globals()['PointStruct'] = PointStruct
-from openapi_client.model.point_insert_ops import PointInsertOps
+from qdrant_openapi_client.model.point_insert_ops import PointInsertOps
 
 
 class TestPointInsertOps(unittest.TestCase):

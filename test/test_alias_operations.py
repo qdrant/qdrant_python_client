@@ -14,20 +14,20 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.alias_operations_any_of import AliasOperationsAnyOf
-from openapi_client.model.alias_operations_any_of1 import AliasOperationsAnyOf1
-from openapi_client.model.alias_operations_any_of1_delete_alias import AliasOperationsAnyOf1DeleteAlias
-from openapi_client.model.alias_operations_any_of2 import AliasOperationsAnyOf2
-from openapi_client.model.alias_operations_any_of2_rename_alias import AliasOperationsAnyOf2RenameAlias
-from openapi_client.model.alias_operations_any_of_create_alias import AliasOperationsAnyOfCreateAlias
+import qdrant_openapi_client
+from qdrant_openapi_client.model.alias_operations_any_of import AliasOperationsAnyOf
+from qdrant_openapi_client.model.alias_operations_any_of1 import AliasOperationsAnyOf1
+from qdrant_openapi_client.model.alias_operations_any_of1_delete_alias import AliasOperationsAnyOf1DeleteAlias
+from qdrant_openapi_client.model.alias_operations_any_of2 import AliasOperationsAnyOf2
+from qdrant_openapi_client.model.alias_operations_any_of2_rename_alias import AliasOperationsAnyOf2RenameAlias
+from qdrant_openapi_client.model.alias_operations_any_of_create_alias import AliasOperationsAnyOfCreateAlias
 globals()['AliasOperationsAnyOf'] = AliasOperationsAnyOf
 globals()['AliasOperationsAnyOf1'] = AliasOperationsAnyOf1
 globals()['AliasOperationsAnyOf1DeleteAlias'] = AliasOperationsAnyOf1DeleteAlias
 globals()['AliasOperationsAnyOf2'] = AliasOperationsAnyOf2
 globals()['AliasOperationsAnyOf2RenameAlias'] = AliasOperationsAnyOf2RenameAlias
 globals()['AliasOperationsAnyOfCreateAlias'] = AliasOperationsAnyOfCreateAlias
-from openapi_client.model.alias_operations import AliasOperations
+from qdrant_openapi_client.model.alias_operations import AliasOperations
 
 
 class TestAliasOperations(unittest.TestCase):

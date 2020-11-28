@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.payload_ops_any_of1_delete_payload import PayloadOpsAnyOf1DeletePayload
+import qdrant_openapi_client
+from qdrant_openapi_client.model.payload_ops_any_of1_delete_payload import PayloadOpsAnyOf1DeletePayload
 
 
 class TestPayloadOpsAnyOf1DeletePayload(unittest.TestCase):

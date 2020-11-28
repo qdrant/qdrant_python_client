@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.alias_operations import AliasOperations
+import qdrant_openapi_client
+from qdrant_openapi_client.model.alias_operations import AliasOperations
 globals()['AliasOperations'] = AliasOperations
-from openapi_client.model.storage_ops_any_of2_change_aliases import StorageOpsAnyOf2ChangeAliases
+from qdrant_openapi_client.model.storage_ops_any_of2_change_aliases import StorageOpsAnyOf2ChangeAliases
 
 
 class TestStorageOpsAnyOf2ChangeAliases(unittest.TestCase):

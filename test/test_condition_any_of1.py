@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.match import Match
+import qdrant_openapi_client
+from qdrant_openapi_client.model.match import Match
 globals()['Match'] = Match
-from openapi_client.model.condition_any_of1 import ConditionAnyOf1
+from qdrant_openapi_client.model.condition_any_of1 import ConditionAnyOf1
 
 
 class TestConditionAnyOf1(unittest.TestCase):

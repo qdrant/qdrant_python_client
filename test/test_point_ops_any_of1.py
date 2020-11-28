@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.point_ops_any_of1_delete_points import PointOpsAnyOf1DeletePoints
+import qdrant_openapi_client
+from qdrant_openapi_client.model.point_ops_any_of1_delete_points import PointOpsAnyOf1DeletePoints
 globals()['PointOpsAnyOf1DeletePoints'] = PointOpsAnyOf1DeletePoints
-from openapi_client.model.point_ops_any_of1 import PointOpsAnyOf1
+from qdrant_openapi_client.model.point_ops_any_of1 import PointOpsAnyOf1
 
 
 class TestPointOpsAnyOf1(unittest.TestCase):

@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.payload_type_any_of1 import PayloadTypeAnyOf1
+import qdrant_openapi_client
+from qdrant_openapi_client.model.payload_type_any_of1 import PayloadTypeAnyOf1
 
 
 class TestPayloadTypeAnyOf1(unittest.TestCase):

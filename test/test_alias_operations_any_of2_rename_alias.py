@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.alias_operations_any_of2_rename_alias import AliasOperationsAnyOf2RenameAlias
+import qdrant_openapi_client
+from qdrant_openapi_client.model.alias_operations_any_of2_rename_alias import AliasOperationsAnyOf2RenameAlias
 
 
 class TestAliasOperationsAnyOf2RenameAlias(unittest.TestCase):

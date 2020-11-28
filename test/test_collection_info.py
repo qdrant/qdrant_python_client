@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.collection_info import CollectionInfo
+import qdrant_openapi_client
+from qdrant_openapi_client.model.collection_info import CollectionInfo
 
 
 class TestCollectionInfo(unittest.TestCase):

@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.error_response_status import ErrorResponseStatus
+import qdrant_openapi_client
+from qdrant_openapi_client.model.error_response_status import ErrorResponseStatus
 globals()['ErrorResponseStatus'] = ErrorResponseStatus
-from openapi_client.model.error_response import ErrorResponse
+from qdrant_openapi_client.model.error_response import ErrorResponse
 
 
 class TestErrorResponse(unittest.TestCase):

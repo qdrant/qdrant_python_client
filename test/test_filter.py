@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.condition import Condition
+import qdrant_openapi_client
+from qdrant_openapi_client.model.condition import Condition
 globals()['Condition'] = Condition
-from openapi_client.model.filter import Filter
+from qdrant_openapi_client.model.filter import Filter
 
 
 class TestFilter(unittest.TestCase):

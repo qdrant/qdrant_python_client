@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.payload_ops_any_of_set_payload import PayloadOpsAnyOfSetPayload
+import qdrant_openapi_client
+from qdrant_openapi_client.model.payload_ops_any_of_set_payload import PayloadOpsAnyOfSetPayload
 globals()['PayloadOpsAnyOfSetPayload'] = PayloadOpsAnyOfSetPayload
-from openapi_client.model.payload_ops_any_of import PayloadOpsAnyOf
+from qdrant_openapi_client.model.payload_ops_any_of import PayloadOpsAnyOf
 
 
 class TestPayloadOpsAnyOf(unittest.TestCase):

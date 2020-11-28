@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.range import Range
+import qdrant_openapi_client
+from qdrant_openapi_client.model.range import Range
 globals()['Range'] = Range
-from openapi_client.model.condition_any_of2 import ConditionAnyOf2
+from qdrant_openapi_client.model.condition_any_of2 import ConditionAnyOf2
 
 
 class TestConditionAnyOf2(unittest.TestCase):

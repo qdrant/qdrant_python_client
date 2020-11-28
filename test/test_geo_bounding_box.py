@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.geo_bounding_box import GeoBoundingBox
+import qdrant_openapi_client
+from qdrant_openapi_client.model.geo_bounding_box import GeoBoundingBox
 
 
 class TestGeoBoundingBox(unittest.TestCase):

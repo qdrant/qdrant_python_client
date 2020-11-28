@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.segment_config import SegmentConfig
+import qdrant_openapi_client
+from qdrant_openapi_client.model.segment_config import SegmentConfig
 
 
 class TestSegmentConfig(unittest.TestCase):

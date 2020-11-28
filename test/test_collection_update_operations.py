@@ -14,14 +14,14 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.payload_ops import PayloadOps
-from openapi_client.model.payload_ops_any_of1_delete_payload import PayloadOpsAnyOf1DeletePayload
-from openapi_client.model.payload_ops_any_of2_clear_payload import PayloadOpsAnyOf2ClearPayload
-from openapi_client.model.payload_ops_any_of_set_payload import PayloadOpsAnyOfSetPayload
-from openapi_client.model.point_insert_ops import PointInsertOps
-from openapi_client.model.point_ops import PointOps
-from openapi_client.model.point_ops_any_of1_delete_points import PointOpsAnyOf1DeletePoints
+import qdrant_openapi_client
+from qdrant_openapi_client.model.payload_ops import PayloadOps
+from qdrant_openapi_client.model.payload_ops_any_of1_delete_payload import PayloadOpsAnyOf1DeletePayload
+from qdrant_openapi_client.model.payload_ops_any_of2_clear_payload import PayloadOpsAnyOf2ClearPayload
+from qdrant_openapi_client.model.payload_ops_any_of_set_payload import PayloadOpsAnyOfSetPayload
+from qdrant_openapi_client.model.point_insert_ops import PointInsertOps
+from qdrant_openapi_client.model.point_ops import PointOps
+from qdrant_openapi_client.model.point_ops_any_of1_delete_points import PointOpsAnyOf1DeletePoints
 globals()['PayloadOps'] = PayloadOps
 globals()['PayloadOpsAnyOf1DeletePayload'] = PayloadOpsAnyOf1DeletePayload
 globals()['PayloadOpsAnyOf2ClearPayload'] = PayloadOpsAnyOf2ClearPayload
@@ -29,7 +29,7 @@ globals()['PayloadOpsAnyOfSetPayload'] = PayloadOpsAnyOfSetPayload
 globals()['PointInsertOps'] = PointInsertOps
 globals()['PointOps'] = PointOps
 globals()['PointOpsAnyOf1DeletePoints'] = PointOpsAnyOf1DeletePoints
-from openapi_client.model.collection_update_operations import CollectionUpdateOperations
+from qdrant_openapi_client.model.collection_update_operations import CollectionUpdateOperations
 
 
 class TestCollectionUpdateOperations(unittest.TestCase):

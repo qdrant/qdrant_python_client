@@ -14,16 +14,16 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.condition_any_of import ConditionAnyOf
-from openapi_client.model.condition_any_of1 import ConditionAnyOf1
-from openapi_client.model.condition_any_of2 import ConditionAnyOf2
-from openapi_client.model.condition_any_of3 import ConditionAnyOf3
-from openapi_client.model.condition_any_of4 import ConditionAnyOf4
-from openapi_client.model.filter import Filter
-from openapi_client.model.geo_bounding_box import GeoBoundingBox
-from openapi_client.model.match import Match
-from openapi_client.model.range import Range
+import qdrant_openapi_client
+from qdrant_openapi_client.model.condition_any_of import ConditionAnyOf
+from qdrant_openapi_client.model.condition_any_of1 import ConditionAnyOf1
+from qdrant_openapi_client.model.condition_any_of2 import ConditionAnyOf2
+from qdrant_openapi_client.model.condition_any_of3 import ConditionAnyOf3
+from qdrant_openapi_client.model.condition_any_of4 import ConditionAnyOf4
+from qdrant_openapi_client.model.filter import Filter
+from qdrant_openapi_client.model.geo_bounding_box import GeoBoundingBox
+from qdrant_openapi_client.model.match import Match
+from qdrant_openapi_client.model.range import Range
 globals()['ConditionAnyOf'] = ConditionAnyOf
 globals()['ConditionAnyOf1'] = ConditionAnyOf1
 globals()['ConditionAnyOf2'] = ConditionAnyOf2
@@ -33,7 +33,7 @@ globals()['Filter'] = Filter
 globals()['GeoBoundingBox'] = GeoBoundingBox
 globals()['Match'] = Match
 globals()['Range'] = Range
-from openapi_client.model.condition import Condition
+from qdrant_openapi_client.model.condition import Condition
 
 
 class TestCondition(unittest.TestCase):

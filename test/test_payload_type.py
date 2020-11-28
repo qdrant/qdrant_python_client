@@ -12,18 +12,18 @@
 
 import unittest
 
-from openapi_client.model.geo_point import GeoPoint
-from openapi_client.model.payload_type_any_of import PayloadTypeAnyOf
-from openapi_client.model.payload_type_any_of1 import PayloadTypeAnyOf1
-from openapi_client.model.payload_type_any_of2 import PayloadTypeAnyOf2
-from openapi_client.model.payload_type_any_of3 import PayloadTypeAnyOf3
+from qdrant_openapi_client.model.geo_point import GeoPoint
+from qdrant_openapi_client.model.payload_type_any_of import PayloadTypeAnyOf
+from qdrant_openapi_client.model.payload_type_any_of1 import PayloadTypeAnyOf1
+from qdrant_openapi_client.model.payload_type_any_of2 import PayloadTypeAnyOf2
+from qdrant_openapi_client.model.payload_type_any_of3 import PayloadTypeAnyOf3
 
 globals()['GeoPoint'] = GeoPoint
 globals()['PayloadTypeAnyOf'] = PayloadTypeAnyOf
 globals()['PayloadTypeAnyOf1'] = PayloadTypeAnyOf1
 globals()['PayloadTypeAnyOf2'] = PayloadTypeAnyOf2
 globals()['PayloadTypeAnyOf3'] = PayloadTypeAnyOf3
-from openapi_client.model.payload_type import PayloadType
+from qdrant_openapi_client.model.payload_type import PayloadType
 
 
 class TestPayloadType(unittest.TestCase):

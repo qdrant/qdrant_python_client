@@ -19,20 +19,20 @@ Retrieve point by id
 
 ```python
 import time
-import openapi_client
-from openapi_client.api import points_api
-from openapi_client.model.error_response import ErrorResponse
-from openapi_client.model.inline_response2004 import InlineResponse2004
+import qdrant_openapi_client
+from qdrant_openapi_client.api import points_api
+from qdrant_openapi_client.model.error_response import ErrorResponse
+from qdrant_openapi_client.model.inline_response2004 import InlineResponse2004
 from pprint import pprint
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = qdrant_openapi_client.Configuration(
     host = "http://localhost:6333"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with qdrant_openapi_client.ApiClient() as api_client:
     # Create an instance of the API class
     api_instance = points_api.PointsApi(api_client)
     name = "name_example" # str | Name of the collection to retrieve from
@@ -43,7 +43,7 @@ with openapi_client.ApiClient() as api_client:
         # Retrieve point by id
         api_response = api_instance.get_point(name, id)
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except qdrant_openapi_client.ApiException as e:
         print("Exception when calling PointsApi->get_point: %s\n" % e)
 ```
 
@@ -84,21 +84,21 @@ Retrieve points by ids
 
 ```python
 import time
-import openapi_client
-from openapi_client.api import points_api
-from openapi_client.model.error_response import ErrorResponse
-from openapi_client.model.inline_response2005 import InlineResponse2005
-from openapi_client.model.point_request import PointRequest
+import qdrant_openapi_client
+from qdrant_openapi_client.api import points_api
+from qdrant_openapi_client.model.error_response import ErrorResponse
+from qdrant_openapi_client.model.inline_response2005 import InlineResponse2005
+from qdrant_openapi_client.model.point_request import PointRequest
 from pprint import pprint
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = qdrant_openapi_client.Configuration(
     host = "http://localhost:6333"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with qdrant_openapi_client.ApiClient() as api_client:
     # Create an instance of the API class
     api_instance = points_api.PointsApi(api_client)
     name = "name_example" # str | Name of the collection to retrieve from
@@ -113,7 +113,7 @@ with openapi_client.ApiClient() as api_client:
         # Retrieve points by ids
         api_response = api_instance.get_points(name)
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except qdrant_openapi_client.ApiException as e:
         print("Exception when calling PointsApi->get_points: %s\n" % e)
 
     # example passing only required values which don't have defaults set
@@ -122,7 +122,7 @@ with openapi_client.ApiClient() as api_client:
         # Retrieve points by ids
         api_response = api_instance.get_points(name, point_request=point_request)
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except qdrant_openapi_client.ApiException as e:
         print("Exception when calling PointsApi->get_points: %s\n" % e)
 ```
 
@@ -163,21 +163,21 @@ Search points
 
 ```python
 import time
-import openapi_client
-from openapi_client.api import points_api
-from openapi_client.model.error_response import ErrorResponse
-from openapi_client.model.inline_response2006 import InlineResponse2006
-from openapi_client.model.search_request import SearchRequest
+import qdrant_openapi_client
+from qdrant_openapi_client.api import points_api
+from qdrant_openapi_client.model.error_response import ErrorResponse
+from qdrant_openapi_client.model.inline_response2006 import InlineResponse2006
+from qdrant_openapi_client.model.search_request import SearchRequest
 from pprint import pprint
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = qdrant_openapi_client.Configuration(
     host = "http://localhost:6333"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with qdrant_openapi_client.ApiClient() as api_client:
     # Create an instance of the API class
     api_instance = points_api.PointsApi(api_client)
     name = "name_example" # str | Name of the collection to search in
@@ -195,7 +195,7 @@ with openapi_client.ApiClient() as api_client:
         # Search points
         api_response = api_instance.search_points(name)
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except qdrant_openapi_client.ApiException as e:
         print("Exception when calling PointsApi->search_points: %s\n" % e)
 
     # example passing only required values which don't have defaults set
@@ -204,7 +204,7 @@ with openapi_client.ApiClient() as api_client:
         # Search points
         api_response = api_instance.search_points(name, search_request=search_request)
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except qdrant_openapi_client.ApiException as e:
         print("Exception when calling PointsApi->search_points: %s\n" % e)
 ```
 
@@ -245,21 +245,21 @@ Update points in collection
 
 ```python
 import time
-import openapi_client
-from openapi_client.api import points_api
-from openapi_client.model.inline_response2003 import InlineResponse2003
-from openapi_client.model.error_response import ErrorResponse
-from openapi_client.model.collection_update_operations import CollectionUpdateOperations
+import qdrant_openapi_client
+from qdrant_openapi_client.api import points_api
+from qdrant_openapi_client.model.inline_response2003 import InlineResponse2003
+from qdrant_openapi_client.model.error_response import ErrorResponse
+from qdrant_openapi_client.model.collection_update_operations import CollectionUpdateOperations
 from pprint import pprint
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = qdrant_openapi_client.Configuration(
     host = "http://localhost:6333"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with qdrant_openapi_client.ApiClient() as api_client:
     # Create an instance of the API class
     api_instance = points_api.PointsApi(api_client)
     name = "name_example" # str | Name of the collection to search in
@@ -270,7 +270,7 @@ with openapi_client.ApiClient() as api_client:
         # Update points in collection
         api_response = api_instance.update_points(name)
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except qdrant_openapi_client.ApiException as e:
         print("Exception when calling PointsApi->update_points: %s\n" % e)
 
     # example passing only required values which don't have defaults set
@@ -279,7 +279,7 @@ with openapi_client.ApiClient() as api_client:
         # Update points in collection
         api_response = api_instance.update_points(name, collection_update_operations=collection_update_operations)
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except qdrant_openapi_client.ApiException as e:
         print("Exception when calling PointsApi->update_points: %s\n" % e)
 ```
 

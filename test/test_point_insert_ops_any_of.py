@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.point_insert_ops_any_of_batch import PointInsertOpsAnyOfBatch
+import qdrant_openapi_client
+from qdrant_openapi_client.model.point_insert_ops_any_of_batch import PointInsertOpsAnyOfBatch
 globals()['PointInsertOpsAnyOfBatch'] = PointInsertOpsAnyOfBatch
-from openapi_client.model.point_insert_ops_any_of import PointInsertOpsAnyOf
+from qdrant_openapi_client.model.point_insert_ops_any_of import PointInsertOpsAnyOf
 
 
 class TestPointInsertOpsAnyOf(unittest.TestCase):

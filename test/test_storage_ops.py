@@ -14,18 +14,18 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.storage_ops_any_of import StorageOpsAnyOf
-from openapi_client.model.storage_ops_any_of1 import StorageOpsAnyOf1
-from openapi_client.model.storage_ops_any_of2 import StorageOpsAnyOf2
-from openapi_client.model.storage_ops_any_of2_change_aliases import StorageOpsAnyOf2ChangeAliases
-from openapi_client.model.storage_ops_any_of_create_collection import StorageOpsAnyOfCreateCollection
+import qdrant_openapi_client
+from qdrant_openapi_client.model.storage_ops_any_of import StorageOpsAnyOf
+from qdrant_openapi_client.model.storage_ops_any_of1 import StorageOpsAnyOf1
+from qdrant_openapi_client.model.storage_ops_any_of2 import StorageOpsAnyOf2
+from qdrant_openapi_client.model.storage_ops_any_of2_change_aliases import StorageOpsAnyOf2ChangeAliases
+from qdrant_openapi_client.model.storage_ops_any_of_create_collection import StorageOpsAnyOfCreateCollection
 globals()['StorageOpsAnyOf'] = StorageOpsAnyOf
 globals()['StorageOpsAnyOf1'] = StorageOpsAnyOf1
 globals()['StorageOpsAnyOf2'] = StorageOpsAnyOf2
 globals()['StorageOpsAnyOf2ChangeAliases'] = StorageOpsAnyOf2ChangeAliases
 globals()['StorageOpsAnyOfCreateCollection'] = StorageOpsAnyOfCreateCollection
-from openapi_client.model.storage_ops import StorageOps
+from qdrant_openapi_client.model.storage_ops import StorageOps
 
 
 class TestStorageOps(unittest.TestCase):

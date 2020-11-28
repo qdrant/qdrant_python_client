@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.collection_info import CollectionInfo
+import qdrant_openapi_client
+from qdrant_openapi_client.model.collection_info import CollectionInfo
 globals()['CollectionInfo'] = CollectionInfo
-from openapi_client.model.inline_response2002 import InlineResponse2002
+from qdrant_openapi_client.model.inline_response2002 import InlineResponse2002
 
 
 class TestInlineResponse2002(unittest.TestCase):

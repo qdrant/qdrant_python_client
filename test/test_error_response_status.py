@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.error_response_status import ErrorResponseStatus
+import qdrant_openapi_client
+from qdrant_openapi_client.model.error_response_status import ErrorResponseStatus
 
 
 class TestErrorResponseStatus(unittest.TestCase):

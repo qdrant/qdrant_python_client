@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.record import Record
+import qdrant_openapi_client
+from qdrant_openapi_client.model.record import Record
 globals()['Record'] = Record
-from openapi_client.model.inline_response2005 import InlineResponse2005
+from qdrant_openapi_client.model.inline_response2005 import InlineResponse2005
 
 
 class TestInlineResponse2005(unittest.TestCase):

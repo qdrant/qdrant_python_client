@@ -14,8 +14,8 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.indexes_any_of import IndexesAnyOf
+import qdrant_openapi_client
+from qdrant_openapi_client.model.indexes_any_of import IndexesAnyOf
 
 
 class TestIndexesAnyOf(unittest.TestCase):

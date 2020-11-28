@@ -14,10 +14,10 @@
 import sys
 import unittest
 
-import openapi_client
-from openapi_client.model.payload_type import PayloadType
+import qdrant_openapi_client
+from qdrant_openapi_client.model.payload_type import PayloadType
 globals()['PayloadType'] = PayloadType
-from openapi_client.model.record import Record
+from qdrant_openapi_client.model.record import Record
 
 
 class TestRecord(unittest.TestCase):
