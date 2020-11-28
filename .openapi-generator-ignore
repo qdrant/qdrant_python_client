@@ -21,3 +21,14 @@
 #docs/*.md
 # Then explicitly reverse the ignore rule for a single file:
 #!docs/README.md
+.dockerignore
+
+openapi_client/model/payload_interface.py
+openapi_client/model/storage_type.py
+openapi_client/model/payload_type.py
+openapi_client/model/indexes.py
+
+test/test_indexes.py
+test/test_payload_interface.py
+test/test_payload_type.py
+test/test_storage_type.py

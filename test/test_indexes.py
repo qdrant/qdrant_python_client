@@ -36,9 +36,8 @@ class TestIndexes(unittest.TestCase):
     def testIndexes(self):
         """Test Indexes"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = Indexes()  # noqa: E501
-        pass
-
+        model = Indexes(type="plain", options={})  # noqa: E501
+        model = Indexes(type="hnsw", options={"m": 16, "ef_construct": 128}, _check_type=False)  # noqa: E501
 
 if __name__ == '__main__':
     unittest.main()

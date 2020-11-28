@@ -63,9 +63,6 @@ class StorageType(ModelComposed):
     """
 
     allowed_values = {
-        ('type',): {
-            'MMAP': "mmap",
-        },
     }
 
     validations = {

@@ -41,7 +41,7 @@ class TestPayloadInterface(unittest.TestCase):
         """Test PayloadInterface"""
         # FIXME: construct object with mandatory attributes with example values
         model = PayloadInterface(value=[123], type='integer', _check_type=False)  # noqa: E501
-        print(model.to_dict())
+        print("model", model.to_dict())
 
 
 if __name__ == '__main__':

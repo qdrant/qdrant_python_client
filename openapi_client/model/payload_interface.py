@@ -69,9 +69,6 @@ class PayloadInterface(ModelComposed):
     """
 
     allowed_values = {
-        ('type',): {
-            'GEO': "geo",
-        },
     }
 
     validations = {
@@ -100,8 +97,8 @@ class PayloadInterface(ModelComposed):
         """
         lazy_import()
         return {
-            'type': (str,),  # noqa: E501
-            'value': (PayloadVariantForGeoPoint,),  # noqa: E501
+            # 'type': (str,),  # noqa: E501
+            # 'value': (PayloadVariantForGeoPoint,),  # noqa: E501
         }
 
     @cached_property
@@ -167,8 +164,6 @@ class PayloadInterface(ModelComposed):
                                 _visited_composed_classes = (Animal,)
         """
 
-        type = kwargs.get('type', nulltype.Null)
-        value = kwargs.get('value', nulltype.Null)
         _check_type = kwargs.pop('_check_type', True)
         _spec_property_naming = kwargs.pop('_spec_property_naming', False)
         _path_to_item = kwargs.pop('_path_to_item', ())
@@ -200,8 +195,6 @@ class PayloadInterface(ModelComposed):
             '_visited_composed_classes': self._visited_composed_classes,
         }
         required_args = {
-            'type': type,
-            'value': value,
         }
         # remove args whose value is Null because they are unset
         required_arg_names = list(required_args.keys())

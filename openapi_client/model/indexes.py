@@ -65,9 +65,7 @@ class Indexes(ModelComposed):
     """
 
     allowed_values = {
-        ('type',): {
-            'HNSW': "hnsw",
-        },
+
     }
 
     validations = {
@@ -96,8 +94,6 @@ class Indexes(ModelComposed):
         """
         lazy_import()
         return {
-            'options': (IndexesAnyOf1Options,),  # noqa: E501
-            'type': (str,),  # noqa: E501
         }
 
     @cached_property

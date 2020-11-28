@@ -1754,7 +1754,7 @@ def get_anyof_instances(self, model_args, constant_args):
             anyof_instance = anyof_class(**kwargs)
             anyof_instances.append(anyof_instance)
         except Exception as e:
-            print(e)
+            pass
     if len(anyof_instances) == 0:
         raise ApiValueError(
             "Invalid inputs given to generate an instance of %s. None of the "

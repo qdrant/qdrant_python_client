@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c864fcef-8e3b-47f8-aa30-0fc68370748c" name="Default Changelist" comment="" />
+    <list default="true" id="c864fcef-8e3b-47f8-aa30-0fc68370748c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.openapi-generator-ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.openapi-generator-ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openapi_client/model/indexes.py" beforeDir="false" afterPath="$PROJECT_DIR$/openapi_client/model/indexes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openapi_client/model/payload_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/openapi_client/model/payload_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openapi_client/model/payload_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/openapi_client/model/payload_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openapi_client/model/storage_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/openapi_client/model/storage_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openapi_client/model_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/openapi_client/model_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_indexes.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_indexes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_payload_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_payload_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_payload_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_payload_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_storage_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_storage_type.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="zbwkpsmh" />
@@ -17,9 +42,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_payload_interface.TestPayloadInterface.testPayloadInterface">
+  <component name="RunManager" selected="Python tests.Unittests for test_indexes.TestIndexes.testIndexes">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="qdrant_python_client" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -41,6 +68,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_indexes.TestIndexes.testIndexes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qdrant_python_client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_indexes.TestIndexes.testIndexes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_payload_interface.TestPayloadInterface.testPayloadInterface" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="qdrant_python_client" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,8 +96,39 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_payload_type.TestPayloadType.testPayloadType" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qdrant_python_client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_payload_type.TestPayloadType.testPayloadType&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_storage_type.TestStorageType.testStorageType" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qdrant_python_client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_storage_type.TestStorageType.testStorageType&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_indexes.TestIndexes.testIndexes" />
+        <item itemvalue="Python tests.Unittests for test_storage_type.TestStorageType.testStorageType" />
+        <item itemvalue="Python tests.Unittests for test_payload_type.TestPayloadType.testPayloadType" />
         <item itemvalue="Python tests.Unittests for test_payload_interface.TestPayloadInterface.testPayloadInterface" />
       </list>
     </recent_temporary>
@@ -72,30 +144,45 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="704" y="353" width="502" height="333" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606591532782">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="704" y="353" width="502" height="333" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.1053@0.27.1920.1053" timestamp="1606591532782" />
     <state x="743" y="256" width="424" height="528" key="FileChooserDialogImpl" timestamp="1606585048734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="256" width="424" height="528" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1606585048734" />
-    <state width="1899" height="116" key="GridCell.Tab.0.bottom" timestamp="1606588629746">
+    <state width="1899" height="415" key="GridCell.Tab.0.bottom" timestamp="1606593991801">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1899" height="116" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606588629746" />
-    <state width="1899" height="116" key="GridCell.Tab.0.center" timestamp="1606588629746">
+    <state width="1899" height="415" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606593991801" />
+    <state width="1899" height="415" key="GridCell.Tab.0.center" timestamp="1606593991799">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1899" height="116" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606588629746" />
-    <state width="1899" height="116" key="GridCell.Tab.0.left" timestamp="1606588629746">
+    <state width="1899" height="415" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606593991799" />
+    <state width="1899" height="415" key="GridCell.Tab.0.left" timestamp="1606593991798">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1899" height="116" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606588629746" />
-    <state width="1899" height="116" key="GridCell.Tab.0.right" timestamp="1606588629746">
+    <state width="1899" height="415" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606593991798" />
+    <state width="1899" height="415" key="GridCell.Tab.0.right" timestamp="1606593991800">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1899" height="116" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606588629746" />
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1606588298151">
+    <state width="1899" height="415" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606593991800" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1606593116272">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606588298151" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606593116272" />
   </component>
 </project>

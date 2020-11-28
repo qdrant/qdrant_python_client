@@ -69,9 +69,6 @@ class PayloadType(ModelComposed):
     """
 
     allowed_values = {
-        ('type',): {
-            'GEO': "geo",
-        },
     }
 
     validations = {
@@ -100,8 +97,6 @@ class PayloadType(ModelComposed):
         """
         lazy_import()
         return {
-            'type': (str,),  # noqa: E501
-            'value': ([GeoPoint],),  # noqa: E501
         }
 
     @cached_property

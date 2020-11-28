@@ -34,8 +34,7 @@ class TestStorageType(unittest.TestCase):
     def testStorageType(self):
         """Test StorageType"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = StorageType()  # noqa: E501
-        pass
+        model = StorageType(type="in_memory")  # noqa: E501
 
 
 if __name__ == '__main__':
