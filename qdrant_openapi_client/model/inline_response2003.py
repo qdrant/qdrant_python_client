@@ -87,7 +87,7 @@ class InlineResponse2003(ModelNormal):
         return {
             'time': (float,),  # noqa: E501
             'status': (str,),  # noqa: E501
-            'result': ([UpdateResult],),  # noqa: E501
+            'result': (UpdateResult,),  # noqa: E501
         }
 
     @cached_property
@@ -149,7 +149,7 @@ class InlineResponse2003(ModelNormal):
                                 _visited_composed_classes = (Animal,)
             time (float): Time spent to process this request. [optional]  # noqa: E501
             status (str): [optional] if omitted the server will use the default value of "ok"  # noqa: E501
-            result ([UpdateResult]): [optional]  # noqa: E501
+            result (UpdateResult): [optional]  # noqa: E501
         """
 
         _check_type = kwargs.pop('_check_type', True)

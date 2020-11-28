@@ -1,7 +1,6 @@
 .gitignore
 .gitlab-ci.yml
 .travis.yml
-README.md
 docs/AliasOperations.md
 docs/AliasOperationsAnyOf.md
 docs/AliasOperationsAnyOf1.md

@@ -30,8 +30,8 @@ class TestUpdateStatus(unittest.TestCase):
     def testUpdateStatus(self):
         """Test UpdateStatus"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = UpdateStatus()  # noqa: E501
-        pass
+        model = UpdateStatus("acknowledged")  # noqa: E501
+
 
 
 if __name__ == '__main__':

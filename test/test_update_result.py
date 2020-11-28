@@ -30,8 +30,7 @@ class TestUpdateResult(unittest.TestCase):
     def testUpdateResult(self):
         """Test UpdateResult"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = UpdateResult()  # noqa: E501
-        pass
+        model = UpdateResult(status="acknowledged", operation_id=0)  # noqa: E501
 
 
 if __name__ == '__main__':
