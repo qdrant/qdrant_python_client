@@ -16,6 +16,7 @@ import unittest
 
 import qdrant_openapi_client
 from qdrant_openapi_client.model.update_result import UpdateResult
+from qdrant_openapi_client.model.update_status import UpdateStatus
 
 
 class TestUpdateResult(unittest.TestCase):
@@ -30,7 +31,7 @@ class TestUpdateResult(unittest.TestCase):
     def testUpdateResult(self):
         """Test UpdateResult"""
         # FIXME: construct object with mandatory attributes with example values
-        model = UpdateResult(status="acknowledged", operation_id=0)  # noqa: E501
+        model = UpdateResult(status=UpdateStatus("acknowledged"), operation_id=0)  # noqa: E501
 
 
 if __name__ == '__main__':
