@@ -1,4 +1,4 @@
-# openapi_client.CollectionsApi
+# qdrant_openapi_client.CollectionsApi
 
 All URIs are relative to *http://localhost:6333*
 
@@ -83,8 +83,8 @@ Get list of existing collections
 import time
 import qdrant_openapi_client
 from qdrant_openapi_client.api import collections_api
-from qdrant_openapi_client.model.error_response import ErrorResponse
 from qdrant_openapi_client.model.inline_response200 import InlineResponse200
+from qdrant_openapi_client.model.error_response import ErrorResponse
 from pprint import pprint
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.
@@ -143,8 +143,8 @@ import time
 import qdrant_openapi_client
 from qdrant_openapi_client.api import collections_api
 from qdrant_openapi_client.model.inline_response2001 import InlineResponse2001
-from qdrant_openapi_client.model.error_response import ErrorResponse
 from qdrant_openapi_client.model.storage_ops import StorageOps
+from qdrant_openapi_client.model.error_response import ErrorResponse
 from pprint import pprint
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.

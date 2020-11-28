@@ -1,4 +1,4 @@
-# openapi_client.PointsApi
+# qdrant_openapi_client.PointsApi
 
 All URIs are relative to *http://localhost:6333*
 
@@ -21,8 +21,8 @@ Retrieve point by id
 import time
 import qdrant_openapi_client
 from qdrant_openapi_client.api import points_api
-from qdrant_openapi_client.model.error_response import ErrorResponse
 from qdrant_openapi_client.model.inline_response2004 import InlineResponse2004
+from qdrant_openapi_client.model.error_response import ErrorResponse
 from pprint import pprint
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.
@@ -86,9 +86,9 @@ Retrieve points by ids
 import time
 import qdrant_openapi_client
 from qdrant_openapi_client.api import points_api
-from qdrant_openapi_client.model.error_response import ErrorResponse
-from qdrant_openapi_client.model.inline_response2005 import InlineResponse2005
 from qdrant_openapi_client.model.point_request import PointRequest
+from qdrant_openapi_client.model.inline_response2005 import InlineResponse2005
+from qdrant_openapi_client.model.error_response import ErrorResponse
 from pprint import pprint
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.
@@ -165,9 +165,9 @@ Search points
 import time
 import qdrant_openapi_client
 from qdrant_openapi_client.api import points_api
-from qdrant_openapi_client.model.error_response import ErrorResponse
 from qdrant_openapi_client.model.inline_response2006 import InlineResponse2006
 from qdrant_openapi_client.model.search_request import SearchRequest
+from qdrant_openapi_client.model.error_response import ErrorResponse
 from pprint import pprint
 # Defining the host is optional and defaults to http://localhost:6333
 # See configuration.py for a list of all supported configuration parameters.

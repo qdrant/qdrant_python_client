@@ -1753,7 +1753,7 @@ def get_anyof_instances(self, model_args, constant_args):
         try:
             anyof_instance = anyof_class(**kwargs)
             anyof_instances.append(anyof_instance)
-        except Exception as e:
+        except Exception:
             pass
     if len(anyof_instances) == 0:
         raise ApiValueError(
