@@ -27,10 +27,12 @@ qdrant_openapi_client/model/payload_interface.py
 qdrant_openapi_client/model/storage_type.py
 qdrant_openapi_client/model/payload_type.py
 qdrant_openapi_client/model/indexes.py
+qdrant_openapi_client/model/search_request.py
 
 test/test_indexes.py
 test/test_payload_interface.py
 test/test_payload_type.py
 test/test_storage_type.py
+test/test_search_request.py
 
 README.md

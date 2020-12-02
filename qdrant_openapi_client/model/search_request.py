@@ -16,6 +16,8 @@ import sys  # noqa: F401
 
 import nulltype  # noqa: F401
 
+from qdrant_openapi_client.model.filter import Filter
+from qdrant_openapi_client.model.search_params import SearchParams
 from qdrant_openapi_client.model_utils import (  # noqa: F401
     ApiTypeError,
     ModelComposed,
@@ -82,8 +84,8 @@ class SearchRequest(ModelNormal):
         return {
             'top': (int,),  # noqa: E501
             'vector': ([float],),  # noqa: E501
-            'filter': (object,),  # noqa: E501
-            'params': (object,),  # noqa: E501
+            'filter': (Filter,),  # noqa: E501
+            'params': (SearchParams,),  # noqa: E501
         }
 
     @cached_property
@@ -148,8 +150,8 @@ class SearchRequest(ModelNormal):
                                 Animal class but this time we won't travel
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
-            filter (object): Look only for points which satisfies this conditions. [optional]  # noqa: E501
-            params (object): Additional search params. [optional]  # noqa: E501
+            filter (Filter): Look only for points which satisfies this conditions. [optional]  # noqa: E501
+            params (SearchParams): Additional search params. [optional]  # noqa: E501
         """
 
         _check_type = kwargs.pop('_check_type', True)
