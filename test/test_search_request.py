@@ -12,10 +12,12 @@
 
 import unittest
 
+from qdrant_openapi_client import Configuration
 from qdrant_openapi_client.model.condition import Condition
 from qdrant_openapi_client.model.filter import Filter
 from qdrant_openapi_client.model.range import Range
 from qdrant_openapi_client.model.search_request import SearchRequest
+from qdrant_openapi_client.model_utils import validate_and_convert_types
 
 
 class TestSearchRequest(unittest.TestCase):
@@ -44,6 +46,23 @@ class TestSearchRequest(unittest.TestCase):
         )  # noqa: E501
 
         print(model.to_dict())
+
+        model = SearchRequest(
+            top=10,
+            vector=[1.0, 2.0, 3.0],
+            filter=None
+        )  # noqa: E501
+
+        print(model.to_dict())
+
+        cond: Condition = Condition.from_dict({
+            "range": {
+                "key": "my_field",
+                "gt": 42.2
+            }
+        })
+
+        print(cond.to_dict())
 
 
 if __name__ == '__main__':

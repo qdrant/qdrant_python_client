@@ -84,8 +84,8 @@ class SearchRequest(ModelNormal):
         return {
             'top': (int,),  # noqa: E501
             'vector': ([float],),  # noqa: E501
-            'filter': (Filter,),  # noqa: E501
-            'params': (SearchParams,),  # noqa: E501
+            'filter': (Filter, none_type),  # noqa: E501
+            'params': (SearchParams, none_type),  # noqa: E501
         }
 
     @cached_property

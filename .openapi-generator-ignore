@@ -35,4 +35,7 @@ test/test_payload_type.py
 test/test_storage_type.py
 test/test_search_request.py
 
+# from_dict implementation
+qdrant_openapi_client/model_utils.py
+
 README.md
