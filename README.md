@@ -1,3 +1,7 @@
+# WARNING
+
+This client is deprecated, please use https://github.com/qdrant/qdrant_client instead
+
 # qdrant-openapi-client
 API description for Qdrant vector search engine. Describes CRUD and search operations on collections of points (vectors with payload).
 
